@@ -1,0 +1,10 @@
+feh --bg-scale ~/.config/wallpapers/newarchback.jpg &
+xcompmgr -C &
+bmpanel2 -c ~/.config/bmpanel2/bmpanel2rc &
+adeskmenu --no-tray &
+urxvtd &
+sleep 2 && urxvt_desktop &
+sleep 9 && wbar &
+cbatticon &>/dev/null &
+weatherboy -l 12759263 -u f -d 10 -a &>/dev/null &
+#xrandr --setprovideroffloadsink radeon Intel

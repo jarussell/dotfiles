@@ -1,0 +1,118 @@
+!
+! Comments begin with a "!" character.
+!
+! vim: set ft=xdefaults:
+!---------------------------------------------------------------------------
+!
+!	C o l o r s
+!
+*background: #242424
+*foreground: #e2e2e5
+! Black
+*color0:    rgb:00/00/00
+! Red
+*color1:    rgb:ff/5d/28
+! Green
+*color2:    rgb:b1/d6/31
+! Yellow
+*color3:    rgb:e6/ea/50
+! Blue
+*color4:    rgb:7e/8a/a2
+! Magenta
+*color5:    rgb:af/5f/5f
+! Cyan
+*color6:    rgb:ac/f0/f2
+! White
+*color7:    rgb:e2/e2/e5
+! Black
+*color8:    rgb:00/00/00
+! Red
+*color9:    rgb:ff/5d/28
+! Green
+*color10:    rgb:b1/d6/31
+! Yellow
+*color11:    rgb:e6/ea/50
+! Blue
+*color12:    rgb:7e/8a/a2
+! Magenta
+*color13:    rgb:af/5f/5f
+! Cyan
+*color14:    rgb:ac/f0/f2
+! White
+*color15:    rgb:e2/e2/e5
+!---------------------------------------------------------------------------
+!
+!	X F T - Settings
+!
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.lcdfilter:lcddefault
+Xft.antialias: 1
+Xft.hintstyle: hintfull
+!---------------------------------------------------------------------------
+!
+!	X T E R M - Settings
+!
+XTerm*background:       black
+XTerm*foreground:       green
+XTerm*cursorColor:      white
+XTerm.vt100.geometry:   79x25
+XTerm*scrollBar:        false
+XTerm*scrollTtyOutput:  false
+!---------------------------------------------------------------------------
+!
+!	A T E R M - Settings
+!
+aterm*transparent:      true
+aterm*font:     -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+!---------------------------------------------------------------------------
+!
+!	U R X V T - Settings
+!
+Rxvt*foreground:       	white
+URxvt*cursorColor:		#ffffff
+URxvt*color15: 	        #FFFFFF
+URxvt.perl-ext-common:  default,url-select
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.urlLauncher:      firefox
+URxvt.underlineURLs:    true
+urxvt*geometry: 80x40
+urxvt*depth: 32
+urxvt*saveLines: 32767
+urxvt*scrollTtyKeypress: true
+urxvt*scrollTtyOutput: false
+urxvt*scrollBar: false
+urxvt*loginShell: true
+urxvt*internalBorder: 2
+urxvt*termName: rxvt-256color
+urxvt*secondaryScroll:  true
+urxvt*mapAlert:         true
+urxvt*utmpInhibit:      true
+urxvt*perl-lib:/usr/lib/urxvt/perl/
+urxvt*perl-ext-common: default,clipboard,clipboard-osc,matcher,url-select,keyboard-select
+urxvt.keysym.M-q: perl:keyboard-select:activate
+urxvt.keysym.M-c:   perl:clipboard:copy
+urxvt.keysym.M-v:   perl:clipboard:paste
+urxvt*url-select.launcher: /usr/bin/firefox
+urxvt*matcher.button: 1
+urxvt*perl-ext:         default,url-select
+urxvt.keysym.M-u:       perl:url-select:select_next
+urxvt*background:[85]black
+urxvt*letterSpace: -1
+urxvt.font: xft:Envy Code R for Powerline:pixelsize=12
+urxvt.boldFont: xft:Envy Code R for Powerline:bold:pixelsize=12
+urxvt.italicFont: xft:Envy Code R for Powerline:italic:pixelsize=12
+URxvt*.iconFile: /usr/share/icons/Faenza/apps/scaleable/xterm.png
+!---------------------------------------------------------------------------
+!
+!	D e s k t o p   T e r m i n a l - Settings
+!
+!desktop terminal information
+urxvt_desktop*transparent: true
+urxvt_desktop*geometry: 110x50
+urxvt_desktop*borderLess:true
+urxvt_desktop*scrollBar:false
+urxvt_desktop.font: xft:Envy Code R for Powerline:pixelsize=12
+urxvt_desktop.boldFont: xft:Envy Code R for Powerline:bold:pixelsize=12
+urxvt_desktop.italicFont: xft:Envy Code R for Powerline:italic:pixelsize=12

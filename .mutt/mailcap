@@ -1,0 +1,14 @@
+text/html; w3m %s; nametemplate=%s.html;
+text/html; w3m -dump %s; nametemplate=%s.html; copiousoutput;
+
+application/msword;  antiword %s; copiousoutput;
+application/word;  antiword %s; copiousoutput;
+application/doc;  antiword %s; copiousoutput;
+application/vnd.ms-word;  antiword %s; copiousoutput;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document;  docx2txt.pl %s -; copiousoutput;
+application/vnd.openxmlformats-officedocument.wordprocessingml.documen;  docx2txt.pl %s -; copiousoutput;
+
+application/x-pdf; zathura %s;
+application/pdf; zathura %s;
+
+image/*; /usr/bin/feh %s; test=test -n "$DISPLAY"
